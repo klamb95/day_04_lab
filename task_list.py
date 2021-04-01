@@ -23,4 +23,11 @@ def completed_tasks(list):
             completed_task.append(task)
     return completed_task
 
-print(completed_tasks(tasks))
+def all_tasks(list):
+    all_task = []
+    for task in list:
+        all_task.append(task)
+           
+    return all_task
+
+print(all_tasks(tasks))
