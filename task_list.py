@@ -16,3 +16,11 @@ def umcompleted_tasks(list):
             uncompleted_task.append(task)
     return uncompleted_task
     
+def completed_tasks(list):
+    completed_task = []
+    for task in list:
+        if task ["completed"] == True:
+            completed_task.append(task)
+    return completed_task
+
+print(completed_tasks(tasks))
